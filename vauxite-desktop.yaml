@@ -9,15 +9,15 @@ rojig:
   description: "Immutable Fedora-based Xfce desktop"
 
 repos:
-  - fedora-37
-  - fedora-37-updates
+  - fedora-36
+  - fedora-36-updates
 
 packages:
   - fedora-release-ostree-desktop
   - borgbackup
   - borgmatic
+  - emacs-nox
   - fzf
-  - micro
   - most
   - podman-compose
   - rofi

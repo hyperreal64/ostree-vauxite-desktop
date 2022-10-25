@@ -1,7 +1,7 @@
-ref: fedora/37/${basearch}/ostree-base
+ref: fedora/36/${basearch}/ostree-base
 
-automatic_version_prefix: "37"
-mutate-os-release: "37"
+automatic_version_prefix: "36"
+mutate-os-release: "36"
 
 include: fedora-common-ostree-pkgs.yaml
 
@@ -111,4 +111,3 @@ postprocess:
             ln -srf /usr/bin/true ${x}
         fi
     done
-postprocess-script: "postprocess.sh"

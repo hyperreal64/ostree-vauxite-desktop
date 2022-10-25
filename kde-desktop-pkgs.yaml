@@ -23,7 +23,6 @@ packages:
   - khelpcenter
   - khotkeys
   - kinfocenter
-  - kio-gdrive
   - kmag
   - kmenuedit
   - kmousetool
@@ -52,7 +51,6 @@ packages:
   - plasma-vault
   - plasma-workspace
   - plasma-workspace-geolocation
-  - plasma-workspace-wallpapers
   - plasma-workspace-xorg
   - polkit-kde
   - qt-at-spi

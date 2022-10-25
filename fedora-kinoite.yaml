@@ -1,5 +1,5 @@
 include: kde-desktop-pkgs.yaml
-ref: fedora/37/${basearch}/kinoite
+ref: fedora/36/${basearch}/kinoite
 rojig:
   name: fedora-kde
   summary: "Fedora Kinoite (KDE) base image"
@@ -31,5 +31,5 @@ exclude-packages:
   - plasma-pk-updates
 
 repos:
-  - fedora-37
-  - fedora-37-updates
+  - fedora-36
+  - fedora-36-updates

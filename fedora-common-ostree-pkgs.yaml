@@ -11,7 +11,6 @@ packages:
   - alsa-sof-firmware
   - alsa-ucm
   - alsa-utils
-  - amd-gpu-firmware
   - atmel-firmware
   - attr
   - audit
@@ -60,7 +59,6 @@ packages:
   - gnupg2
   - google-noto-emoji-color-fonts
   - google-noto-naskh-arabic-vf-fonts
-  - google-noto-sans-arabic-vf-fonts
   - google-noto-sans-armenian-vf-fonts
   - google-noto-sans-canadian-aboriginal-vf-fonts
   - google-noto-sans-cherokee-vf-fonts
@@ -70,7 +68,7 @@ packages:
   - google-noto-sans-gurmukhi-vf-fonts
   - google-noto-sans-hebrew-vf-fonts
   - google-noto-sans-lao-vf-fonts
-  - google-noto-sans-math-fonts
+  - google-noto-sans-math-vf-fonts
   - google-noto-sans-mono-vf-fonts
   - google-noto-sans-sinhala-vf-fonts
   - google-noto-sans-thaana-vf-fonts
@@ -92,7 +90,6 @@ packages:
   - ibus-libzhuyin
   - ibus-m17n
   - ibus-typing-booster
-  - intel-gpu-firmware
   - iproute
   - iptables-nft
   - iptstate
@@ -152,7 +149,6 @@ packages:
   - nss-mdns
   - ntfs-3g
   - ntfsprogs
-  - nvidia-gpu-firmware
   - opensc
   - openssh-clients
   - openssh-server
@@ -195,7 +191,6 @@ packages:
   - sil-padauk-fonts
   - sos
   - spice-vdagent
-  - spice-webdavd
   - sssd
   - sssd-common
   - sssd-kcm
@@ -209,18 +204,15 @@ packages:
   - tar
   - thai-scalable-waree-fonts
   - time
-  - toolbox
   - tree
   - unzip
   - uresourced
   - usb_modeswitch
   - usbutils
   - util-linux
-  - vazirmatn-vf-fonts
   - vim-minimal
   - wget
   - which
-  - whois
   - wireplumber
   - words
   - wpa_supplicant

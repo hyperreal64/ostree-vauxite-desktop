@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Usage: ./comps-sync.py /path/to/comps-f37.xml.in
+# Usage: ./comps-sync.py /path/to/comps-f36.xml.in
 #
 # Can both remove packages from the manifest
 # which are not mentioned in comps, and add packages from
@@ -132,7 +132,7 @@ if (n_manifest_new > 0 or n_comps_new > 0) and args.save:
 
 # Generate treefiles for all desktops
 for desktop in [ 'gnome-desktop', 'kde-desktop', 'xfce-desktop',
-        'lxqt-desktop', 'deepin-desktop', 'mate-desktop']:
+        'lxqt-desktop', 'deepin-desktop', 'pantheon-desktop', 'mate-desktop']:
     print()
     print("Syncing packages for {}:".format(desktop))
 
